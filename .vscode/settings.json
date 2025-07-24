@@ -1,0 +1,15 @@
+{
+  "cucumber.features": [
+    "cypress/e2e/features/*.feature",
+  ],
+  "cucumber.glue": [
+    "cypress/e2e/step_definitions/*.js",
+    "cypress/pages/*.js",
+  ],
+  "cucumberautocomplete.steps": [
+    "cypress/e2e/step_definitions/**/*.js"
+  ],
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.gherkinDefinitionPart": "^(Funcionalidade|Cenário|Dado|Quando|Então|E|Mas)",
+  "cucumberautocomplete.gherkinDialect": "pt"
+}
